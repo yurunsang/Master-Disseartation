@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>2017 gps data</name>
+    <description>I have chosen 5 shopping areas in London</description>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-E65100-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-E65100-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>GPS data 2017</name>
+      <Placemark>
+        <name>Oxford Street</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.144561599999975,51.5149566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Westfield Shopping Centre</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.221119899999962,51.5075726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kensington High Street</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.197670900000048,51.4993829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Westfield Stratford City</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.0695554999999786,51.5454342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boxpark Shoreditch</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.0764473000000407,51.523508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kensington High Street</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.1878405,51.502759,0
+                -0.1982911,51.4996604,0
+                -0.2081019,51.4961936,0
+                -0.2079195,51.4960199,0
+                -0.2077478,51.4958062,0
+                -0.1876259,51.5023582,0
+                -0.1878405,51.502759,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Oxford Street</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.158658,51.5132029,0
+                -0.1300764,51.5163276,0
+                -0.130291,51.5167281,0
+                -0.1589584,51.5135768,0
+                -0.158658,51.5132029,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Boxpark Shoreditch</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.0772154,51.5237278,0
+                -0.0773174,51.5233707,0
+                -0.0752038,51.5232972,0
+                -0.0751019,51.5237078,0
+                -0.0772154,51.5237278,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Westfield Stratford City</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.0697803,51.5461149,0
+                -0.0699574,51.5439764,0
+                -0.0681871,51.5439631,0
+                -0.0683588,51.5459147,0
+                -0.0697803,51.5461149,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Westfield Shopping Centre</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.2246404,51.5102783,0
+                -0.2247906,51.5051898,0
+                -0.2192116,51.5043618,0
+                -0.2176023,51.504522,0
+                -0.2171302,51.5052566,0
+                -0.2195764,51.5107858,0
+                -0.2246404,51.5102783,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
